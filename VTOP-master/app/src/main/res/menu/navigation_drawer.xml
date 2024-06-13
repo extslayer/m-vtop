@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/navigation_websites"
+        android:layout_margin="15dp"
+        android:icon="@drawable/website_icon"
+        android:title="Open VTOP"
+        tools:targetApi="o" />
+
+    <item
+        android:id="@+id/navigation_clubs"
+        android:icon="@drawable/baseline_clubs"
+        android:title="Clubs" />
+
+    <item
+        android:id="@+id/navigation_cgpa"
+        android:icon="@drawable/calc_blue"
+        android:title="GPA Calculator" />
+
+    <item
+        android:id="@+id/navigation_video"
+        android:icon="@drawable/video_icon"
+        android:title="Video Lectures" />
+
+    <item
+        android:id="@+id/navigation_theme"
+        android:icon="@drawable/theme_icon"
+        android:title="Themes" />
+
+
+
+</menu>
